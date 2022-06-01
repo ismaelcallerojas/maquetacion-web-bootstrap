@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Segundo Parcial - Ismael</title>
+    <link rel="shortcut icon" href="img/bootstrap-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/516818ead1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Inicio Menu Fixed-->
+  <div class="sticky-top bg-light">
+    <!-- INICIO PRIMERA SECCIÓN NAV PRINCIPAL-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="row">
+                  <a class="col-2 navbar-brand" href="#">
+                    <img src="img/bootstrap-logo.svg" alt="" width="55" height="50">
+                  </a>
+                  <div class="col-9 text-center">
+                    <p class="text-light m-0">Bienvenido: </p>
+                    <p id="print" class="text-light m-0 fw-bold fs-5">User</p>
+                  </div>  
+              </div>
+
+              <div class="offcanvas offcanvas-end bg-dark align-items-center" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <ul class="navbar-nav justify-content-center">
+                  <li class="nav-item separador2">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item separador separador2">
+                      <a class="nav-link" href="#">Eventos</a>
+                  </li>
+                  <li class="nav-item separador2">
+                      <a class="nav-link" href="#"">Noticias</a>
+                  </li>
+                  <li class="nav-item separador separador2">
+                      <a class="nav-link" href="#"">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="login nav-link text-light bg-primary rounded p-2" href="#footer"">Iniciar Sesión</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="d-flex">
+              <div class="buscar">
+                <div class="input-group">
+                  <input type="text" class="form-control rounded-4" placeholder="Buscar">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary rounded-4" type="button">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      
+                    </button>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="cerrar">
+                <button onclick="location.reload()" type="button" class="btn btn-danger position-relative login">
+                  Cerrar Sesión
+                  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning border border-light rounded-circle">
+                    <span class="visually-hidden"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN PRIMERA SECCIÓN NAV PRINCIPAL-->
+
+    <!-- INICIO SECCIÓN TITULO-->
+    <div class="titulo mt-2 mb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md ">
+                    <h1 class="fw-bold tipeo">stiles </h1>
+                </div>
+
+                <div class="col-md d-flex align-items-center">
+                    <h1>Total Production Solution</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN SECCIÓN TITULO-->
+
+    <!-- INICIO SECCIÓN NAV SECUNDARIO-->
+    <nav class="navbar navbar-expand-lg bg-light fs-5 fw-semibold">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">SOLUCIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">PARTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">SOPORTE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">ACERCA DE NOSOTROS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- FIN SECCIÓN NAV SECUNDARIO-->
+  </div>
+<!--Fin Menu Fixed-->  
+<!--Inicio Cuerpo de la página-->  
+    <main class="container mt-4 mb-4">
+        <div class="row g-5">
+    <!-- INICIO SECCIÓN LATERAL PRODUCTOS-->   
+          <div class="col-md-3 border-end border-4">
+            <div class="position-sticky bg-light" style="top: 15rem;">
+              <div class="p-1 border-bottom border-primary border-opacity-50">
+                <h4 class="text-dark">PRODUCTOS</h4>
+              </div>
+      
+              <div class="p-3">
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#" class="text-decoration-none">Aplicaciones</a></li>
+                  <li><a href="#" class="text-decoration-none">Marcas</a></li>
+                  <li><a href="#" class="text-decoration-none">Tipos de Productos</a></li>
+                </ol>
+              </div>
+      
+              <div class="p-3">
+                <ol class="list-unstyled">
+                  <li><a href="#" class="text-decoration-none">Selector de Productos</a></li>
+                  <li><a href="#" class="text-decoration-none">Especiales</a></li>
+                </ol>
+              </div>
+
+              <div class="d-grid gap-2 mb-3">
+                  <button class="btn btn-warning p-2" type="button" data-bs-toggle="collapse" data-bs-target="#contador" aria-expanded="false" aria-controls="contador">
+                    <span class="fs-5">Mostrar Visitas al Sitio</span>
+                  </button>
+                <div class="collapse" id="contador">
+                  <div class="card card-body d-flex align-items-center">
+                    <p>Usted es el Visitante N° </p>
+                    <p class="website-counter text-center pt-1"></p>
+                    <button class="mt-2 btn btn-danger btn-sm" id="reset">Reiniciar</button>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="d-grid gap-2">
+                  <button class="btn btn-primary p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <span class="fs-5"> Botón de información extra</span>
+                  </button>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header text-center fw-bold">Curso en Oferta</div>
+                <div class="card-body cardhtml text-start">
+                  <h3 class="card-title text-light">HTML 5</h3>
+                  <p class="card-text text-light fs-5">Descuento del 20%</p>
+                  <a href="#" class="btn btn-danger">Adquirir</a>
+                </div>
+                <div class="card-footer text-center text-muted fs-5">$99.99</div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header text-center fw-bold text-danger">Próximo Curso</div>
+                <div class="card-body cardindex text-start">
+                  <h3 class="card-title text-light">IndexDB</h3>
+                  <p class="card-text text-light fs-5">Descuento del 50% a los 5 primeros</p>
+                  <a href="#" class="btn btn-warning">Reservar</a>
+                </div>
+                <div class="card-footer text-center text-muted fs-5">$29.99</div>
+              </div>
+
+            </div>
+          </div>
+    <!-- FIN SECCIÓN LATERAL PRODUCTOS-->
+      
+    <!-- INICIO SECCIÓN CONTENEDOR-->
+
+          <div class="col-md-9">
+            <h6 class="p-1 mb-4 fst-italic border-bottom">Información general del producto</h6>
+            <!--Detalles de producto-->
+            <section>
+              <div class="row producto">
+                <div class="col-md-4 imagenproducto">
+                    <!--Inicio Imagen producto-->
+                    <div id="carouselExampleInterval" class="carousel slide bg-dark rounded" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <img src="img/img1.png" class="d-block w-100" alt="..." >
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="img/img2.png" class="d-block w-100" alt="..." >
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/img3.png" class="d-block w-100" alt="..." >
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="etiquetas">
+                      <h6 class="mt-4 fw-bold">Etiquetas Relacionadas</h6>
+                      <p>Aplicaciones: <a class="link-light bg-success" href="#">HTML5</a>, <a class="link-light bg-success"" href="#">CSS3</a>, <a class="link-light bg-success" href="#">JavaScript</a>, <a class="link-light bg-success" href="#">Bootstrap</a></p>
+                      <p>Marcas: <a class="link-light bg-dark" href="#">Google</a>, <a class="link-light bg-dark" href="#">Facebook</a></p>
+                      <p>Tipos de Productos: <a class="link-light bg-primary" href="#">Páginas Web</a></p>
+                      <p>Series: <a class="link-light bg-danger" href="#">#fff</a>, <a class="link-light bg-danger" href="#">#000</a>, <a class="link-light bg-danger" href="#">#070707</a></p>
+                    </div>
+                      <!--Fin Imagen producto-->
+                </div>
+                <div class="col-md detalles">
+                    <div class="row detalle1">
+                      <div class="col-md-8">
+                        <h3 class="fw-bold">NOMBRE DEL PRODUCTO</h3>
+                        <h2 class="fw-light p-2">PS 1000</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit laboriosam qui odit fugiat voluptas corrupti explicabo soluta tempore, dolor perferendis aperiam, alias facilis, doloribus corporis at nam illo voluptatum maxime quod commodi. Eum reprehenderit magni vero aut molestiae! Impedit rem pariatur nesciunt tempore eum aperiam voluptatum, eaque modi dolor magni! In aliquid corrupti odit soluta, veritatis animi numquam officia!</p>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-success" type="button">Más Información</button>
+                          <!-- Button modal -->
+                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <p class="fw-bold pt-3"> Ver Precios</p> <p class="fs-6">& Especificaciones Técnicas</p>
+                          </button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Especificaciones Técnicas del Producto</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <h2>Nombre del Producto</h2>
+                                  <ul>
+                                    <li>Detalle 1</li>
+                                    <li>Detalle 2</li>
+                                    <li>Detalle 3</li>
+                                    <li>Detalle 4</li>
+                                    <li>Detalle 5</li>
+                                    <li>Detalle 6</li>
+                                  </ul>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-success">Pedir más Información</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin modal-->
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="row p-4 detalle2">
+                      <h5>Caracteristicas</h5>
+                      <ul>
+                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci nihil officiis molestias quas numquam et enim sequi consectetur corrupti.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, molestiae!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, beatae provident earum possimus iusto perspiciatis? Recusandae, ipsam ut, eligendi dolore illum exercitationem officiis et eaque, in nulla eum atque quis.</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum autem ducimus quam quaerat voluptatibus sequi asperiores eum exercitationem quas assumenda!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum autem ducimus quam quaerat voluptatibus sequi asperiores eum exercitationem quas assumenda!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum autem ducimus quam quaerat voluptatibus sequi asperiores eum exercitationem quas assumenda!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum autem ducimus quam quaerat voluptatibus sequi asperiores eum exercitationem quas assumenda!</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <!--Fin detalles de producto-->
+
+            <!--Tabla de detalles de producto-->
+            <section class="table-responsive  border border-light">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Especificaciones del Producto</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Dimensiones</th>
+                    <td>Width 500px height 500px</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Características</th>
+                    <td>La web tiene 4 tecnologias</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Categoria</th>
+                    <td colspan="2">Maquetación con Bootstrap</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Marca y Modelo</th>
+                    <td colspan="2">Ismael - Segundo Parcial</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Colores Disponibles</th>
+                    <td colspan="2">Negro, Azul, Amarillo, Rojo, Verde.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <!--Fin Tabla de detalles de producto-->
+
+            <!--Articulos relacionados-->
+            <section class="p-4  border border-primary">
+              <h5>Productos & Artículos Relacionados</h5>
+              <div class="row d-flex justify-content-around mt-3 mb-3">
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img1.png" class="card-img-top" alt="html" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">HTML5</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img2.png" class="card-img-top" alt="css" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">CSS3</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img3.png" class="card-img-top" alt="bootstrap" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">Bootstrap</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img4.png" class="card-img-top" alt="JavaScript" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">JavaScript</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row d-flex justify-content-around mt-3">
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img4.png" class="card-img-top" alt="JavaScript" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">JavaScript</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img3.png" class="card-img-top" alt="bootstrap" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">Bootstrap</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img2.png" class="card-img-top" alt="css" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">CSS3</p>
+                  </div>
+                </div>
+                <div class="card mt-2 tarjeta" style="width: 10rem;">
+                  <img src="img/img1.png" class="card-img-top" alt="html5" loading="lazy">
+                  <div class="card-body border-top">
+                    <p class="card-text">HTML5</p>
+                  </div>
+                </div>  
+              </div>
+            </section>
+            <!--Fin Articulos relacionados-->
+
+          </div>
+    <!-- FIN SECCIÓN CONTENEDOR-->
+
+        </div>
+    </main>
+<!--Fin Cuerpo de la página-->
+
+    <div class="divisor"></div>
+
+    <!-- Inicio Footer-->
+    <div class="container-fluid">
+        <footer id="footer">
+            <div class="row">
+                <div class="col-md bordelateral text-center bordeabajo pie">
+                    <h5>Menú</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Productos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Servicios</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Soluciones</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Partes</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Soporte</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acerca de nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md d-flex align-items-center justify-content-center text-center">
+                    <form class="pie" name="form" id="forms">
+                        <h5>Inicia Sesión para más noticias</h5>
+                        <p>Resumen mensual de lo que es nuevo y emocionante de nosotros.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <input id="name" type="text" class="form-control" placeholder="Correo Electrónico">
+                            <input class="btn btn-primary" type="button" value="Iniciar">
+                        </div>
+                        <p>¿No tienes una cuenta? <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Registrate Aquí</a></p>
+                       
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                              <div class="modal-header">
+                                <h5 class="modal-title text-light" id="staticBackdropLabel">Registrarse</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body d-flex flex-column align-items-start">
+                                <form>
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Correo" aria-label="Username" aria-describedby="basic-addon1">
+                                  </div>
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">*</span>
+                                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+                                  </div>
+                                  <div class="mb-3 form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" value="" id="exampleCheck1" checked>
+                                    <label class="form-check-label text-primary" for="exampleCheck1">Recuerdame</label>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Registrarse</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="py-3 row border-top d-flex align-items-center justify-content-center">
+              <p class="text-center">&copy; 2022 Ismael Fernando Calle Rojas, Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <!--Fin del footer-->
+
+    <script  src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>      
+    
+</body>
+</html>

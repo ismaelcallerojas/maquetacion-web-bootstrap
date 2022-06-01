@@ -1,0 +1,107 @@
+.login{
+    margin-left: 1rem;
+}
+
+.tipeo{
+    font-family: monospace;
+    font-size: 4rem;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 6ch;
+
+    animation: typing 2s steps(6), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from {width: 0}
+}
+
+@keyframes blink{
+    50% { border-color: transparent }
+}
+
+.cardhtml{
+    background-image: url(../img/html5.png);
+    background-size: cover;
+}
+.cardindex{
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+}
+
+/*estilos del contador de visitas*/
+.website-counter {
+    background-color: #1cb5f1;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+/*divisor de secciones*/
+.divisor {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+
+
+/*Estilos de las etiquetas debajo de los productos*/
+.etiquetas a{
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+/*Efecto de los articulos relacionados*/
+.tarjeta{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/*Margen para el footer*/
+footer .pie{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Separadores del navbar*/
+@media (min-width: 992px) {
+    .separador:not(:last-child) {
+        border-left: 1px solid #d7d7d7;
+        border-right: 1px solid #d7d7d7;
+    }
+}
+@media (max-width: 992px) {
+    .separador2:not(:last-child) {
+        border-bottom: 1px solid #d7d7d7;
+    }
+}
+
+@media (min-width: 768px) {
+    .bordelateral:not(:last-child) {
+        border-right: 1px solid #d7d7d7;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .bordeabajo:not(:last-child) {
+        border-bottom: 1px solid #d7d7d7;
+    }
+}
+
+
